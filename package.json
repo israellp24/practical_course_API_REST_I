@@ -1,0 +1,19 @@
+{
+  "name": "practical_course_api_rest_i",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israellp24/practical_course_API_REST_I.git"
+  },
+  "author": "@israellp24",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/israellp24/practical_course_API_REST_I/issues"
+  },
+  "homepage": "https://github.com/israellp24/practical_course_API_REST_I#readme"
+}
