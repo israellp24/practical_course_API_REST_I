@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/israellp24/practical_course_API_REST_I/issues"
   },
-  "homepage": "https://github.com/israellp24/practical_course_API_REST_I#readme"
+  "homepage": "https://github.com/israellp24/practical_course_API_REST_I#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }
