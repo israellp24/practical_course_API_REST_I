@@ -22,6 +22,7 @@ const trendsPage = ()=>{
     searchForm.classList.add('inactive');
 
     trendingPreviewSection.classList.add('inactive');
+    likedMoviesSection.classList.add('inactive');
     categoriesPreviewSection.classList.add('inactive');
     genericSection.classList.remove('inactive');
     movieDetailSection.classList.add('inactive');
@@ -45,6 +46,7 @@ const searchPage = ()=>{
     searchForm.classList.remove('inactive');
 
     trendingPreviewSection.classList.add('inactive');
+    likedMoviesSection.classList.add('inactive');
     categoriesPreviewSection.classList.add('inactive');
     genericSection.classList.remove('inactive');
     movieDetailSection.classList.add('inactive');
@@ -69,6 +71,7 @@ const movieDetailsPage = ()=>{
     searchForm.classList.add('inactive');
 
     trendingPreviewSection.classList.add('inactive');
+    likedMoviesSection.classList.add('inactive');
     categoriesPreviewSection.classList.add('inactive');
     genericSection.classList.add('inactive');
     movieDetailSection.classList.remove('inactive');
@@ -90,6 +93,7 @@ const categoryPage = ()=>{
     searchForm.classList.add('inactive');
 
     trendingPreviewSection.classList.add('inactive');
+    likedMoviesSection.classList.add('inactive');
     categoriesPreviewSection.classList.add('inactive');
     genericSection.classList.remove('inactive');
     movieDetailSection.classList.add('inactive');
@@ -117,12 +121,14 @@ const homePage = ()=>{
     searchForm.classList.remove('inactive');
 
     trendingPreviewSection.classList.remove('inactive');
+    likedMoviesSection.classList.remove('inactive');
     categoriesPreviewSection.classList.remove('inactive');
     genericSection.classList.add('inactive');
     movieDetailSection.classList.add('inactive');
 
     getTrendingMoviesPreview();
     getCategoriesPreview();
+    getLikedMovies();
 }
 
 const  navigator = () =>{
@@ -170,6 +176,7 @@ arrowBtn.addEventListener('click',()=>{
     history.back();
     //location.hash = '#home';
 });
+
 
 let maxPage;
 let page = 1;
